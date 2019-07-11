@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 'use strict';
 
 const studentData = [
@@ -20,10 +21,8 @@ const studentData = [
 
 function enrollInSummerSchool(students) {
   // your code here
-  students.forEach(student =>
-    student.status = 'In Summer School'
-    );
-    return students;
+  students.forEach(student => (student.status = 'In Summer School'));
+  return students;
 }
 
 /* From here down, you are not expected to understand.... for now :)
