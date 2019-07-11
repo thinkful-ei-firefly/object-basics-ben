@@ -12,15 +12,6 @@ const scratchData = [
 function findById(items, idNum) {
   // your code here
   return items.find(item => item.id === idNum);
-
-  // why doesn't the following work?:
-  // items.forEach(function(item) {
-  // if (item.id === idNum) {
-  //   return item;
-  // } else {
-  //   return `No item found with ID #${idNum}`;
-  // }}
-  // );
 }
 
 //
